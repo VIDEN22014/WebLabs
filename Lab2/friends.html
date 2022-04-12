@@ -1,48 +1,90 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="utf-8">
+<title>Index</title>
+<style>
+    h1{
+        text-align: center;
+        font-size: 22px;
+    }
+    body > a:first-of-type{/*Посилання назад на головну*/
+        font-style:italic;
+    }
+    h2{
+        text-align: center;
+    }
+    tr:first-of-type{
+        text-align: center;
+        background-color: green;
+        font-weight: bold;
+        color: black;
+    }
+    tr:nth-of-type(2n){
+        background-color: gray;
+    }
+    table{
+        width: 100%;
+	    margin-bottom: 20px;
+	    border: 1px solid #dddddd;
+	    border-collapse: collapse; 
+    }
+    table th,table td{
+        padding: 5px;
+        border: 1px solid black;
+    }
+    table caption{
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: 110%;
+    }
+    tr td:last-of-type{
+        text-align: end;
+    }
+</style>    
+</head>
 <body>
-
-<h1>Друзі Гуменюка Богдана Миколайовича</h1>
-<a href="index.html"><p>Назад на головну</p></a>
-<h2>Мої друзі</h2>
-<table>
-    <caption>Персональні дані друзів</caption>
-    <tr>
-        <th>Прізвище</th>
-        <th>Ім'я</th>
-        <th>Дата народження</th>
-        <th>Адреса проживання</th>
-        <th>Контактний телефон</th>
-    </tr>
-    <tr>
-        <td>Максимчук</td>
-        <td>Максим</td>
-        <td>21.09.2002</td>
-        <td>м. Заставна вул. Трактористів 299</td>
-        <td>+380982552914</td>
-    </tr>
-    <tr>
-        <td>Ґанді</td>
-        <td>Магатма</td>
-        <td>02.10.1869</td>
-        <td>м. Порбандар вул. Індійська 3</td>
-        <td>+919922872414</td>
-    </tr>
-    <tr>
-        <td>Маск</td>
-        <td>Ілон</td>
-        <td>28.06.1971</td>
-        <td>м. Преторія вул. Водна 15</td>
-        <td>+120587254903</td>
-    </tr>
-    <tr>
-        <td>Кім Чен</td>
-        <td>Ін</td>
-        <td>08.01.1984</td>
-        <td>м. Пхеньян вул. Диктаторська 78</td>
-        <td>+850713284947</td>
-    </tr>
-</table>
-
+    <h1>Друзі Гуменюка Богдана Миколайовича</h1>
+    <a href="index.html"><p>Назад на головну</p></a>
+    <h2>Мої друзі</h2>
+    <table>
+        <caption>Персональні дані друзів</caption>
+        <tr>
+            <th>Прізвище</th>
+            <th>Ім'я</th>
+            <th>Дата народження</th>
+            <th>Адреса проживання</th>
+            <th>Контактний телефон</th>
+        </tr>
+        <tr>
+            <td>Максимчук</td>
+            <td>Максим</td>
+            <td>21.09.2002</td>
+            <td>м. Заставна вул. Трактористів 299</td>
+            <td>+380982552914</td>
+        </tr>
+        <tr>
+            <td>Ґанді</td>
+            <td>Магатма</td>
+            <td>02.10.1869</td>
+            <td>м. Порбандар вул. Індійська 3</td>
+            <td>+919922872414</td>
+        </tr>
+        <tr>
+            <td>Маск</td>
+            <td>Ілон</td>
+            <td>28.06.1971</td>
+            <td>м. Преторія вул. Водна 15</td>
+            <td>+120587254903</td>
+        </tr>
+        <tr>
+            <td>Кім Чен</td>
+            <td>Ін</td>
+            <td>08.01.1984</td>
+            <td>м. Пхеньян вул. Диктаторська 78</td>
+            <td>+850713284947</td>
+        </tr>
+    </table>
 </body>
 </html> 
