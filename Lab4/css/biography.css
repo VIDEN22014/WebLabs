@@ -1,55 +1,92 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    padding: 1% 1%;
 }
 
 h1 {
+    font-size: 22px;
     text-align: center;
-    margin: 10px;
 }
 
-a>p {
-    padding-left: 1%;
+body>a:first-of-type {
+    /*Посилання назад на головну*/
+    font-style: italic;
 }
 
-.outer {
-    background-color: rgb(213, 232, 212);
-    border: solid 3px black;
-    height: 100%;
+h3:first-of-type {
+    /*Заголовок Зміст*/
+    text-align: center;
 }
 
-.outer>h2 {
-    width: fit-content;
-    border-left: inherit;
-    border-bottom: inherit;
-    margin-left: auto;
-    padding: 2px 5px;
+a.inContentHref {
+    /*Посилання в Змісті*/
+    text-decoration: none;
+    background-color: blue;
+    border: 1px solid black;
+    color: yellow;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 1px;
 }
 
-.outer>p {
-    padding: 5px;
+a.inContentHref:hover {
+    /*Посилання в Змісті*/
+    background-color: magenta;
+    color: black;
 }
 
-#caption1 {
-    background-color: orange;
+a.inContentHref:active {
+    /*Посилання в Змісті*/
+    background-color: yellow;
+    color: blue;
 }
 
-#caption2 {
-    background-color: hotpink;
+article {
+    font-size: 120%;
+    border: solid 1px black;
 }
 
-#caption3 {
-    background-color: lightpink;
+article>h2 {
+    font-size: 1.5em*120%;
+}
+
+.articleBlock:nth-of-type(1) article {
+    background-color: gray;
+}
+
+.articleBlock:nth-of-type(2) article {
+    background-color: gainsboro;
+}
+
+.articleBlock:nth-of-type(3) article {
+    background-color: ghostwhite;
+}
+
+.articleBlock:nth-of-type(4) article {
+    background-color: whitesmoke;
+}
+
+.articleBlock:nth-of-type(5) article {
+    background-color: wheat;
+}
+
+a.toContentHref {
+    font-weight: bold;
+    display: inline-block;
+    height: max-content;
+}
+
+body>a:last-of-type {
+    text-transform: uppercase;
 }
 
 .flexContainer {
     display: flex;
     flex-wrap: wrap;
+}
+
+.articleBlock article {
+    padding: 1%;
 }
 
 /*Desktop*/

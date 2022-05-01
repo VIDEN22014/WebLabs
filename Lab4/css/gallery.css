@@ -1,55 +1,70 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    padding: 1% 1%;
 }
 
 h1 {
     text-align: center;
-    margin: 10px;
+    font-size: 20px;
 }
 
-a>p {
-    padding-left: 1%;
+body>a:first-of-type {
+    /*Посилання назад на головну*/
+    font-style: italic;
 }
 
-.outer {
-    background-color: rgb(213, 232, 212);
-    border: solid 3px black;
-    height: 100%;
+h2 {
+    /*Заголовок Мої Зображення*/
+    text-align: center;
+    font-size: 1.5em;
 }
 
-.outer>h2 {
-    width: fit-content;
-    border-left: inherit;
-    border-bottom: inherit;
+h3 {
+    text-align: center;
+}
+
+.galleryBlock:nth-of-type(1) h3 {
+    /*Заголовок Зображення у цій папці*/
+    /* font-size: 1.5em; = 100% <30%*/
+    font-size: 1.05rem;
+}
+
+.galleryBlock:nth-of-type(2) h3 {
+    /*Заголовок Зображення у папці Images*/
+    /* font-size: 1.5em; = 100% >30%*/
+    font-size: 1.95rem;
+}
+
+.galleryBlock:nth-of-type(3) h3 {
+    /*Заголовок Зображення онлайн*/
+    /* font-size: 1.95em; = 100% >30%*/
+    font-size: 2.535rem;
+}
+
+img {
+    display: block;
     margin-left: auto;
-    padding: 2px 5px;
-}
-
-.outer>p {
-    padding: 5px;
-}
-
-#caption1 {
-    background-color: orange;
-}
-
-#caption2 {
-    background-color: hotpink;
-}
-
-#caption3 {
-    background-color: lightpink;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .flexContainer {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+
+.galleryBlock {
+    padding: 1%;
+    flex: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.galleryBlock h3 {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /*Desktop*/
@@ -67,7 +82,7 @@ a>p {
     .col-ld-10,
     .col-ld-11,
     .col-ld-12 {
-        padding: 1%;
+        /* padding: 1%; */
     }
 
     .col-ld-1 {
@@ -134,7 +149,7 @@ a>p {
     .col-md-10,
     .col-md-11,
     .col-md-12 {
-        padding: 1%;
+        /* padding: 1%; */
     }
 
     .col-md-1 {
@@ -201,7 +216,7 @@ a>p {
     .col-sd-10,
     .col-sd-11,
     .col-sd-12 {
-        padding: 1%;
+        /* padding: 1%; */
     }
 
     .col-sd-1 {

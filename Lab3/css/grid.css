@@ -62,7 +62,7 @@ h1 {
 }
 
 /*Desktop*/
-@media (min-width: 992px) {
+@media (min-width: 993px) {
     .wrapper {
         grid-template-areas:
             'item1 item2 item3';
@@ -71,7 +71,7 @@ h1 {
 }
 
 /*Tablet*/
-@media (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 992px) {
     .wrapper {
         grid-template-areas:
             'item1 item2'

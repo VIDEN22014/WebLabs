@@ -1,55 +1,57 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    padding: 1% 1%;
 }
 
 h1 {
     text-align: center;
-    margin: 10px;
+    font-size: 22px;
 }
 
-a>p {
-    padding-left: 1%;
+a:first-of-type {
+    font-style: italic;
 }
 
-.outer {
-    background-color: rgb(213, 232, 212);
-    border: solid 3px black;
-    height: 100%;
+h2:first-of-type {
+    /*Заголовок Мій типовий список покупок*/
+    text-align: center;
 }
 
-.outer>h2 {
-    width: fit-content;
-    border-left: inherit;
-    border-bottom: inherit;
-    margin-left: auto;
-    padding: 2px 5px;
+ul:first-of-type li:nth-of-type(2n) {
+    background-color: white;
 }
 
-.outer>p {
-    padding: 5px;
+li>ul {
+    background-color: white;
 }
 
-#caption1 {
-    background-color: orange;
+ul:first-of-type li:nth-of-type(2n+1) {
+    background-color: gray;
 }
 
-#caption2 {
-    background-color: hotpink;
+h2:nth-of-type(2) {
+    /*Заголовок Мій улюблений десерт*/
+    text-align: center;
 }
 
-#caption3 {
-    background-color: lightpink;
+.listBlock>ol>li:nth-of-type(4) {
+    background-color: wheat;
 }
+
+.listBlock>ol>li:nth-of-type(3):hover,
+.listBlock>ol>li:nth-of-type(5):hover {
+    cursor: pointer;
+}
+
 
 .flexContainer {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+
+.listBlock {
+    flex: 100%;
+    padding: 1%;
 }
 
 /*Desktop*/
@@ -67,7 +69,7 @@ a>p {
     .col-ld-10,
     .col-ld-11,
     .col-ld-12 {
-        padding: 1%;
+        /* padding: 1%; */
     }
 
     .col-ld-1 {
@@ -134,7 +136,7 @@ a>p {
     .col-md-10,
     .col-md-11,
     .col-md-12 {
-        padding: 1%;
+        /* padding: 1%; */
     }
 
     .col-md-1 {
@@ -201,7 +203,7 @@ a>p {
     .col-sd-10,
     .col-sd-11,
     .col-sd-12 {
-        padding: 1%;
+        /* padding: 1%; */
     }
 
     .col-sd-1 {

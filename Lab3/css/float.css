@@ -48,7 +48,7 @@ a>p {
 }
 
 /*Desktop*/
-@media (min-width: 992px) {
+@media (min-width: 993px) {
 
     .col-ld-1,
     .col-ld-2,
@@ -116,7 +116,7 @@ a>p {
 }
 
 /*Tablet*/
-@media (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 992px) {
 
     .col-md-1,
     .col-md-2,
