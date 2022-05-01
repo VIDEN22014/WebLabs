@@ -87,6 +87,11 @@ body>a:last-of-type {
 
 .articleBlock article {
     padding: 1%;
+    height: 95%;
+}
+
+.articleBlock h3 {
+    height: 5%;
 }
 
 /*Desktop*/
