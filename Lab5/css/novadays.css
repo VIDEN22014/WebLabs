@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+}
+
+a:first-of-type {
+    font-style: italic;
+}
+
+h2:first-of-type {
+    /*Заголовок Мій типовий список покупок*/
+    text-align: center;
+}
+
+ul:first-of-type li:nth-of-type(2n) {
+    background-color: white;
+}
+
+li>ul {
+    background-color: white;
+}
+
+ul:first-of-type li:nth-of-type(2n+1) {
+    background-color: gray;
+}
+
+h2:nth-of-type(2) {
+    /*Заголовок Мій улюблений десерт*/
+    text-align: center;
+}
+
+.listBlock>ol>li:nth-of-type(4) {
+    background-color: wheat;
+}
+
+.listBlock>ol>li:nth-of-type(3):hover,
+.listBlock>ol>li:nth-of-type(5):hover {
+    cursor: pointer;
+}
+
+.listBlock {
+    padding: 1%;
+}

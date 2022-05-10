@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+body>a:first-of-type {
+    /*Посилання назад на головну*/
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+tr:first-of-type {
+    text-align: center;
+    background-color: green;
+    font-weight: bold;
+    color: black;
+}
+
+tr:nth-of-type(2n) {
+    background-color: gray;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+table caption {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 110%;
+}
+
+tr td:last-of-type {
+    text-align: end;
+}
+
+
+/*Desktop*/
+@media (min-width: 992px) {
+    table th {
+        font-size: 130%;
+    }
+
+    table td {
+        font-size: 120%;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+    table th {
+        font-size: 120%;
+    }
+
+    table td {
+        font-size: 110%;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 767px) {
+    table th {
+        font-size: 110%;
+    }
+}
