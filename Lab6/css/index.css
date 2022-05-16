@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 120%;
+    text-align: justify;
+}
+
+.innerArticle {
+
+    background-color: rgba(213, 232, 212);
+}
+
+.navbar-custom {
+    border-bottom: 2px solid gray;
+    background-color: rgb(70, 198, 198);
+}
