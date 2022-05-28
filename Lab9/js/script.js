@@ -13,7 +13,7 @@
 
     var showLoading = function (selector) {
         var html = "<div class='text-center'>";
-        html += "<img src='../db/categories/loading.png' alt='loading'></div>";
+        html += "<img src='db/categories/loading.png' alt='loading'></div>";
         insertHtml(selector, html);
         insertHtml("#mainCaption", "Loading...");
     };
