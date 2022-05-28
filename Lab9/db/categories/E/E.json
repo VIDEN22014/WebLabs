@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Item - E1",
+        "shortname": "E1",
+        "price": 120,
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing."
+    },
+    {
+        "id": 2,
+        "name": "Item - E2",
+        "shortname": "E2",
+        "price": 150,
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing."
+    },
+    {
+        "id": 3,
+        "name": "Item - E3",
+        "shortname": "E3",
+        "price": 230,
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing."
+    },
+    {
+        "id": 4,
+        "name": "Item - E4",
+        "shortname": "E4",
+        "price": 270,
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing."
+    },
+    {
+        "id": 5,
+        "name": "Item - E5",
+        "shortname": "E5",
+        "price": 230,
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing."
+    },
+    {
+        "id": 6,
+        "name": "Item - E6",
+        "shortname": "E6",
+        "price": 400,
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing."
+    }
+]

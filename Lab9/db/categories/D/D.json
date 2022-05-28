@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Item - D1",
+        "shortname": "D1",
+        "price": 485,
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing."
+    },
+    {
+        "id": 2,
+        "name": "Item - D2",
+        "shortname": "D2",
+        "price": 123,
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing."
+    },
+    {
+        "id": 3,
+        "name": "Item - D3",
+        "shortname": "D3",
+        "price": 325,
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing."
+    },
+    {
+        "id": 4,
+        "name": "Item - D4",
+        "shortname": "D4",
+        "price": 863,
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing."
+    },
+    {
+        "id": 5,
+        "name": "Item - D5",
+        "shortname": "D5",
+        "price": 143,
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing."
+    },
+    {
+        "id": 6,
+        "name": "Item - D6",
+        "shortname": "D6",
+        "price": 957,
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing."
+    }
+]
