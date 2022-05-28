@@ -3,8 +3,8 @@
 
     var categoriesHtml = "snippets/category-snippet.html";
     var categoryItemHtml = "snippets/item-snippet.html";
-    var allCategoriesUrl = "db/categories.json";
-    var categoryItemUrl = "db/categories/";
+    var allCategoriesUrl = "../db/categories.json";
+    var categoryItemUrl = "../db/categories/";
 
     var insertHtml = function (selector, html) {
         var targetElem = document.querySelector(selector);
